@@ -140,6 +140,29 @@ function App() {
       </div>
     </div>
 
+
+
+    <div className="py-20 bg-white">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold text-red-800 text-center mb-16">
+          Dokumentasi
+        </h2>
+
+      </div>
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div  className="w-full max-w-xs mx-auto">
+          <iframe
+            src={`https://www.instagram.com/p/DFM9mphzFbg/embed`}
+            width="100%"
+            height="400"
+            style={{ border: 0 }}
+            allowFullScreen
+          ></iframe>
+        </div>
+    
+    </div>
+    </div>
+
     {/* SECTION REGISTRATION */}
     <div className="py-16 bg-gray-100">
       <div className="container mx-auto px-4 text-center">
