@@ -66,80 +66,107 @@ function App() {
 
       {/* Competition Section */}
       <div className="py-20 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-red-800 text-center mb-16">
-            Kategori Perlombaan
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-red-50 p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-red-800 mb-4">Lomba Fotogenik</h3>
-              <p className="text-gray-700 mb-4">Untuk usia 2-4 tahun</p>
-              <div className="flex items-center text-gray-600">
-                <Phone className="w-4 h-4 mr-2" />
-                <a 
-                    href="https://wa.me/6285320592523" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Maria: 085320592523
-                  </a>
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold text-red-800 text-center mb-16">
+          Kategori Perlombaan
+        </h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="bg-red-50 p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Lomba Fotogenik</h3>
+            <p className="text-gray-700 mb-4">Untuk usia 2-4 tahun</p>
+            <div className="flex items-center text-gray-600">
+              <Phone className="w-4 h-4 mr-2" />
+              <a 
+                href="https://wa.me/6285320592523" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Maria: 085320592523
+              </a>
+            </div>
+          </div>
 
-              </div>
+          <div className="bg-red-50 p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Lomba E-Sport</h3>
+            <p className="text-gray-700 mb-4">Tingkat SD & SMP</p>
+            <div className="flex items-center text-gray-600">
+              <Phone className="w-4 h-4 mr-2" />
+              <a 
+                href="https://wa.me/62817613849" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Nining: 0817613849
+              </a>
             </div>
-            <div className="bg-red-50 p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-red-800 mb-4">Lomba E-Sport</h3>
-              <p className="text-gray-700 mb-4">Tingkat SD & SMP</p>
-              <div className="flex items-center text-gray-600">
-                <Phone className="w-4 h-4 mr-2" />
-                <a 
-                    href="https://wa.me/62817613849" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Nining: 0817613849
-                  </a>
-              </div>
-            </div>
-            <div className="bg-red-50 p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-red-800 mb-4">Lomba Cosplay Karakter</h3>
-              <p className="text-gray-700 mb-4">Tingkat SD & SMP</p>
-              <div className="flex items-center text-gray-600">
-                <Phone className="w-4 h-4 mr-2" />
+          </div>
 
-                <a 
-                    href="https://wa.me/6281322717800" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Ono: 081322717800
-                  </a>
-          
-              </div>
+          <div className="bg-red-50 p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Lomba Cosplay Karakter</h3>
+            <p className="text-gray-700 mb-4">Tingkat SD & SMP</p>
+            <div className="flex items-center text-gray-600">
+              <Phone className="w-4 h-4 mr-2" />
+              <a 
+                href="https://wa.me/6281322717800" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Ono: 081322717800
+              </a>
             </div>
-            <div className="bg-red-50 p-6 rounded-xl shadow-lg">
-              <h3 className="text-xl font-bold text-red-800 mb-4">Lomba Fashion Show Keluarga</h3>
-              <p className="text-gray-700 mb-4">TK & SD kelas 1-2</p>
-              <div className="flex flex-col space-y-2 text-gray-600">
-                <div className="flex items-center">
-                  <Phone className="w-4 h-4 mr-2" />
-                  <a 
-                    href="https://wa.me/6281395027557" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
-                  >
-                    Woro: 081395027557
-                  </a>
-                </div>
-                
+          </div>
+
+          <div className="bg-red-50 p-6 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold text-red-800 mb-4">Lomba Fashion Show Keluarga</h3>
+            <p className="text-gray-700 mb-4">TK & SD kelas 1-2</p>
+            <div className="flex flex-col space-y-2 text-gray-600">
+              <div className="flex items-center">
+                <Phone className="w-4 h-4 mr-2" />
+                <a 
+                  href="https://wa.me/6281395027557" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  Woro: 081395027557
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    {/* SECTION REGISTRATION */}
+    <div className="py-16 bg-gray-100">
+      <div className="container mx-auto px-4 text-center">
+        <h2 className="text-4xl font-bold text-red-800 mb-6">REGISTRATION</h2>
+        
+        <p className="text-lg text-gray-700 mb-4">Silakan daftar melalui link berikut:</p>
+        <a 
+          href="https://bit.ly/Kegiatan-Imlek-Bersama-Kampus-YPII"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-white bg-red-600 hover:bg-red-700 px-6 py-3 rounded-full text-lg font-semibold transition-all transform hover:scale-105"
+        >
+          Daftar Sekarang
+        </a>
+
+        <p className="text-lg text-gray-700 mt-6">Baca syarat & ketentuan lomba di sini:</p>
+        <a 
+          href="https://bit.ly/ketentuan-syarat-lomba"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:underline text-lg font-semibold"
+        >
+          Syarat & Ketentuan
+        </a>
+      </div>
+    </div>
+
 
       {/* Features Section */}
       <div className="py-20 bg-red-50">
